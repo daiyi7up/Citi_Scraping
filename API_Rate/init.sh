@@ -20,11 +20,11 @@ USE Exchange_rate_table;
 CREATE TABLE LatestInformation(
      ID INT AUTO_INCREMENT primary key,
      Currency_Name TEXT,
-     Buying_Rate INT,
-     Cash_Buying_Rate INT,
-     Selling_Rate INT,
-     Cash_Selling_Rate INT,
-     Exchange_Rate_Base_Price INT
+     Buying_Rate TEXT,
+     Cash_Buying_Rate TEXT,
+     Selling_Rate TEXT,
+     Cash_Selling_Rate TEXT,
+     Exchange_Rate_Base_Price TEXT
    )character set = utf8;
 
 eof

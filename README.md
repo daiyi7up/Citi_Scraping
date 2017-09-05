@@ -1,7 +1,9 @@
 # Citi_Scraping
 ###花旗杯汇率爬虫
 
-爬取http://www.usd-cny.com/当日汇率相关信息。
+爬取http://www.usd-cny.com/ 
+
+当日汇率相关信息。
 
 请在Python3下使用
 
