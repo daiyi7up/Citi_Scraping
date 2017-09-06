@@ -27,7 +27,7 @@ headers={
     'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
 }
 
-aims=re.compile(r'height="30".*?#F7F7F7.*?href=".*?">(.*?)</td>.*?#F7F7F7">(.*?)</td>.*?#F7F7F7">(.*?)</td>.*?#F7F7F7">(.*?)</td>.*?#F7F7F7">(.*?)</td>.*?#F7F7F7">(.*?)</td>',re.S)
+aims=re.compile(r'height="30".*?#F7F7F7.*?href=".*?">(.*?)</.*?#F7F7F7">(.*?)</td>.*?#F7F7F7">(.*?)</td>.*?#F7F7F7">(.*?)</td>.*?#F7F7F7">(.*?)</td>.*?#F7F7F7">(.*?)</td>',re.S)
 try:
     middle=urllib.request.Request("http://www.usd-cny.com",headers=headers)
     html=urllib.request.urlopen(middle)
