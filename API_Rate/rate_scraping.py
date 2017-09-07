@@ -4,8 +4,11 @@ import urllib.request
 from urllib.error import HTTPError,URLError
 import re
 import pymysql
-#The password and uer need to be change.
-conn=pymysql.connect(host='localhost',user='root',passwd='password',db='mysql',charset='utf8', port=3306)
+
+user=input("Please input your mysql user name:")
+password=input("Please input your mysql password:")
+
+conn=pymysql.connect(host='localhost',user=user,passwd=password,db='mysql',charset='utf8', port=3306)
 cur=conn.cursor()
 cur.execute("USE Exchange_rate_table")
 

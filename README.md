@@ -3,9 +3,11 @@
 
 爬取http://www.usd-cny.com/ 
 
-当日汇率相关信息。
+当日汇率相关信息。如图所示：
 
-请在Python3下使用
+![5PHUQ.png](https://s1.simimg.com/2017/09/07/5PHUQ.png)
+
+注：请在Python3下使用
 
 ####使用步骤：
 
