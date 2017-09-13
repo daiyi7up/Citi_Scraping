@@ -1,6 +1,5 @@
 # Citi_Scraping
-
-###花旗杯汇率爬虫
+## 花旗杯汇率爬虫
 
 注：请在Python3下使用
 
@@ -11,14 +10,15 @@
 
 ![56DVG.png](https://s1.ax2x.com/2017/09/13/56DVG.png)
 
-USD->美元
-EUR->欧元
-GBP->英镑
-JPY->日元
-CND->加拿大元
+##### 说明：
 
+>USD->美元
+>EUR->欧元
+>GBP->英镑
+>JPY->日元
+>CND->加拿大元
 
-####使用步骤：
+### 使用步骤：
 
 1.`chmod a+x init.sh`
 
