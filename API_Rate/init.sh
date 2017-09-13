@@ -17,14 +17,55 @@ CREATE DATABASE Exchange_rate_table;
 
 USE Exchange_rate_table;
 
-CREATE TABLE LatestInformation(
+CREATE TABLE USD(
      ID INT AUTO_INCREMENT primary key,
-     Currency_Name TEXT,
+     Bank_Name TEXT,
      Buying_Rate TEXT,
      Cash_Buying_Rate TEXT,
      Selling_Rate TEXT,
      Cash_Selling_Rate TEXT,
-     Exchange_Rate_Base_Price TEXT
+     Update_time TEXT
+   )character set = utf8;
+
+
+CREATE TABLE EUR(
+     ID INT AUTO_INCREMENT primary key,
+     Bank_Name TEXT,
+     Buying_Rate TEXT,
+     Cash_Buying_Rate TEXT,
+     Selling_Rate TEXT,
+     Cash_Selling_Rate TEXT,
+     Update_time TEXT
+   )character set = utf8;
+
+CREATE TABLE GBP(
+     ID INT AUTO_INCREMENT primary key,
+     Bank_Name TEXT,
+     Buying_Rate TEXT,
+     Cash_Buying_Rate TEXT,
+     Selling_Rate TEXT,
+     Cash_Selling_Rate TEXT,
+     Update_time TEXT
+   )character set = utf8;
+
+CREATE TABLE JPY(
+     ID INT AUTO_INCREMENT primary key,
+     Bank_Name TEXT,
+     Buying_Rate TEXT,
+     Cash_Buying_Rate TEXT,
+     Selling_Rate TEXT,
+     Cash_Selling_Rate TEXT,
+     Update_time TEXT
+   )character set = utf8;
+
+CREATE TABLE CND(
+     ID INT AUTO_INCREMENT primary key,
+     Bank_Name TEXT,
+     Buying_Rate TEXT,
+     Cash_Buying_Rate TEXT,
+     Selling_Rate TEXT,
+     Cash_Selling_Rate TEXT,
+     Update_time TEXT
    )character set = utf8;
 
 eof
