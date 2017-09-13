@@ -1,6 +1,9 @@
 # Citi_Scraping
+
 ###花旗杯汇率爬虫
+
 注：请在Python3下使用
+
 爬取http://www.kuaiyilicai.com/bank/rmbfx.html
 
 当日汇率相关信息。
